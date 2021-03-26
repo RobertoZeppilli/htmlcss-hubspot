@@ -1,0 +1,142 @@
+/* reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* debug */
+header {
+    height: 800px;
+}
+
+/* common */
+body {
+    font-family: 'Nunito', sans-serif;
+}
+.container {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+}
+.float-left {
+    float: left;
+}
+.clearfix {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.w-50 {
+    width: 50%;
+} 
+
+.btn {
+    border-radius: 10px;
+    padding: 10px 10px;
+}
+.btn-orange {
+    background-color: #fd8700;
+    color: white;
+    border: 1px solid #fd8700;
+}
+.btn-light {
+    background-color: white;
+    color: #fd8700;
+    border: 1px solid #fd8700;
+}
+/* .btn-large - class in main */
+
+/* hover */
+.btn-light:hover {
+    background-color: rgb(219, 238, 232);
+    transition: background 0.5s ease-in-out;
+}
+.btn-orange:hover {
+    background-color: rgb(219, 238, 232);
+    color: #fd8700;
+    transition: background, color 0.5s ease-in-out;
+}
+.inline-list a:hover {
+    color: #fd8700;
+    transition: color 0.5s ease-in-out;
+}
+#search-icon:hover {
+    color: #fd8700;
+    transition: color 0.5s ease-in-out;
+}
+
+.grey-text {
+    color: #404040;
+}
+
+.inline-list li {
+    display: inline-block;
+    list-style: none;
+}
+.inline-list a {
+    text-decoration: none;
+}
+/* header */
+
+/* header-nav-top */
+#header-nav-top {
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    width: 100%;
+    height: 100px;
+    border-bottom: 1px solid black;
+    background-color: rgb(219, 238, 232);
+}
+#contact-elements li,
+#login-elements li {
+    line-height: 100px;
+} 
+#contact-elements li {
+    padding-right: 10px;
+}
+#contact-elements #border {
+    padding-right: 13px;
+    border-right: 1px solid grey;
+}
+
+#login-elements {
+    text-align: right;
+}
+#login-elements li {
+    padding-left: 20px;
+}
+#login-elements i {
+    color: #3399ff;
+}
+
+/* header-nav-bottom */
+#header-nav-bottom {
+    height: 100px;
+    margin-top: 100px;
+    background-color: white;
+}
+#logo-container {
+    height: 100px;
+    line-height: 100px;
+}
+#logo-container img {
+    height: 30%;
+    vertical-align: middle;
+}
+#nav-list .inline-list {
+    line-height: 100px;
+    text-align: right;
+}
+#nav-list .inline-list li {
+    vertical-align: middle;
+    padding-left: 20px;
+}
+#nav-list .inline-list i {
+    padding-left: 20px;
+}
+
+/* jumbotron */
+
