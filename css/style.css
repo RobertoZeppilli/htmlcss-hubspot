@@ -81,13 +81,15 @@ body {
     transition: background, color 0.5s ease-in-out;
 }
 #contact-elements a:hover,
-#nav-list .inline-list a:hover {
+#nav-list .inline-list a:hover,
+#search-icon:hover,
+.footer-list a:hover,
+#socials-list a:hover,
+#languages-container span:hover,
+.legal a:hover {
     color: #fd8700;
     transition: color 0.5s ease-in-out;
-}
-#search-icon:hover {
-    color: #fd8700;
-    transition: color 0.5s ease-in-out;
+    cursor: pointer;
 }
 
 /* text */
@@ -519,3 +521,102 @@ body {
 }
 
 /**** footer ****/
+
+footer {
+    background-color: #3a4b62;
+    margin-top: 20px;
+}
+
+/* footer lists */
+#footer-lists {
+    height: 300px;
+}
+.footer-list-container {
+    height: 100%;
+    float: left;
+    width: calc(100% / 4 - 30px);
+}
+.margin-right {
+    margin-right: 40px;
+}
+.footer-list li {
+    padding-bottom: 10px;
+    list-style: none;
+}
+.footer-list a {
+    text-decoration: none;
+    color: white;
+}
+#last-footer-list {
+    margin-bottom: 10px;
+}
+.footer-list-container h5 {
+    margin: 20px 0;
+    color: white;
+}
+
+/* footer btn */
+#footer-btn {
+    background-color: #eceeee;
+    color: #3a4b62;
+}
+#footer-btn:hover {
+    color: #fd8700;
+    background-color: #3a4b62;
+    border: 1px solid #fd8700;
+    transition: background, color 0.5s ease-in-out;
+}
+
+/* socials */
+#socials-list {
+    margin-top: 25px;
+}
+#socials-list li {
+    padding-right: 25px;
+}
+#socials-list a {
+    color: white;
+}
+
+/* footer bottom */
+#footer-bottom {
+    height: 200px;
+}
+
+/* languages */
+#languages {
+    height: 80px;
+    border-bottom: 1px solid #eceeee;
+    text-align: center;
+    color: #eceeee;  
+}
+#languages-container {
+    padding-top: 50px;
+}
+#languages-container span {
+    padding: 0 20px;
+}
+
+/* copyright & legals */
+#copyrights {
+    height: 120px;
+}
+#copyrights-container {
+    padding: 30px 0;
+    height: 100%;
+}
+.copyright,
+.legal {
+    height: 100%;
+    float: left;
+    color: #eceeee;
+}
+.legal {
+    text-align: right;
+}
+.legal a {
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+}
+
