@@ -430,13 +430,13 @@ body {
 }
 #customers-number {
     position: relative;
-    width: 30%;
+    width: 40%;
 }
 #customers-number-text {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    width: 60%;
+    width: 50%;
 }
 #customers-number-text h4 {
     padding-bottom: 20px;
@@ -445,7 +445,7 @@ body {
 /* testimonials logos */
 #testimonials-logos {
     position: relative;
-    width: 70%;
+    width: 60%;
 }
 #testimonials-logos-container {
     width: 100%;
@@ -498,6 +498,7 @@ body {
 #woman {
     height: 100%;
 }
+
 #grow-text {
     width: 90%;
     padding-top: 20px;
@@ -597,7 +598,7 @@ footer {
     padding: 0 20px;
 }
 
-/* copyright & legals */
+/* copyrights & legals */
 #copyrights {
     height: 120px;
 }
