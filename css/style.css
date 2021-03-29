@@ -529,12 +529,13 @@ footer {
 }
 
 /* footer lists */
-#footer-lists {
-    height: 300px;
+#footer-lists::after {
+    content: '';
+    display: table;
+    clear: both;
 }
 .footer-list-container {
     height: 100%;
-    float: left;
     width: calc(100% / 4 - 30px);
 }
 .margin-right {
@@ -609,7 +610,6 @@ footer {
 .copyright,
 .legal {
     height: 100%;
-    float: left;
     color: #eceeee;
 }
 .legal {
@@ -617,7 +617,7 @@ footer {
 }
 .legal a {
     text-decoration: none;
-    color: white;
+    color: #eceeee;
     padding-left: 10px;
 }
 
