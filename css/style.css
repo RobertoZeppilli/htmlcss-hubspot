@@ -537,9 +537,7 @@ footer {
     text-decoration: none;
     color: white;
 }
-#last-footer-list {
-    margin-bottom: 10px;
-}
+
 .footer-list-container h5 {
     margin: 20px 0;
     color: white;
@@ -547,6 +545,7 @@ footer {
 
 /* footer btn */
 #footer-btn {
+    display: inline-block;
     background-color: #eceeee;
     color: #3a4b62;
 }
@@ -559,7 +558,7 @@ footer {
 
 /* socials */
 #socials-list {
-    margin-top: 25px;
+    padding-top: 10px;
 }
 #socials-list li {
     padding-right: 25px;
